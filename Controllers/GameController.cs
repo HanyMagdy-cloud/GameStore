@@ -6,7 +6,7 @@ using System.Collections.Generic;
 namespace GameStore.Controllers
 {
   public class GamesController : Controller
-  {
+  {//
     private readonly GameService _gameService;
 
     public GamesController(GameService gameService)
